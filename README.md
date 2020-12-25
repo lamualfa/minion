@@ -9,6 +9,7 @@
 - [Whats is Minion?](#what-is-minion)
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Options](#options)
 - [Features](#features)
   - [Automatically generates Sourcemap](#automatically-generates-sourcemap)
   - [Ignore replacement](#ignore-replacement)
@@ -93,7 +94,7 @@ console.log('border-3')
 `
 const modifiedCode = minion(originalCode)
 
-console.log(modifiedCode)
+console.log(modifiedCode.code)
 ```
 
 **Output**
@@ -104,13 +105,27 @@ document.getElementsByClassName('b');
 console.log('c')
 ```
 
+## Options
+
+### `sourcemap: boolean`
+
+If `true`, `minion-js` will generate a sourcemap from the modified code. Default `true`.
+
+### `classMapsFieldName: string`
+
+Field name used to retrieve Class Maps data from the `global` object. Default `classMaps`.
+
+### `getClassMaps: () => object`
+
+Have your own Class Maps? Please pass through this function.
+
 <hr>
 
 # Features
 
 ## Automatically generates Sourcemap
 
-You need a [sourcemap](https://trackjs.com/blog/debugging-with-sourcemaps)? Relax, `minion-js` will automatically create it for you.
+Need a [sourcemap](https://trackjs.com/blog/debugging-with-sourcemaps)? Relax, `minion-js` will automatically create it for you.
 
 ## Ignore replacement
 
