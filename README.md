@@ -214,6 +214,7 @@ The section that writes the [Class Maps](#class-maps) from the [Extractor](#extr
  - PostCSS - [postcss-minion](https://github.com/lamualfa/postcss-minion)
 
 ## Writer
+ - Javascript - minion-js (_You are here_)
 
  - Rollup - [rollup-plugin-minion](https://github.com/lamualfa/rollup-plugin-minion)
  - Rollup HTML - rollup-plugin-minion-html (_Coming soon. PR welcome._)
