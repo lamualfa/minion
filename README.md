@@ -17,8 +17,10 @@
   - [Extractor](#extractor)
   - [Writer](#writer)
 - [Integrations](#integrations)
-  - [PostCSS](#integrations)
-  - [Rollup](#integrations)
+  - [Extractor](https://github.com/lamualfa/minion#extractor-1)
+    - [PostCSS](https://github.com/lamualfa/minion#extractor-1)
+  - [Writer](https://github.com/lamualfa/minion#writer-1)
+    - [Rollup](https://github.com/lamualfa/minion#writer-1)
 - [More Examples](#more-examples)
 
 # What is Minion?
