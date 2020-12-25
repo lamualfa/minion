@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Replaces the entire string in Javascript code for the needs of minifying or obfuscating selectors.",
   "main": "index.js",
-  "repository": "https://github.com/lamualfa/minion-js.git",
+  "repository": "https://github.com/lamualfa/minion.git",
   "author": "La Ode Muhammad Al Fatih",
   "license": "WTFPL",
   "private": false,
