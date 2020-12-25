@@ -1,3 +1,4 @@
+[![NPM Version](https://badgen.net/npm/v/minion-js?color=red&icon=npm&label=version)](https://npmjs.com/package/minion-js)
 [![Github License](https://badgen.net/github/license/lamualfa/minion?color=purple&label=license)](https://github.com/lamualfa/minion/blob/master/LICENSE)
 ![CI](https://github.com/lamualfa/minion/workflows/CI/badge.svg)
 [![codecov](https://codecov.io/gh/lamualfa/minion/branch/master/graph/badge.svg?token=NZ6VHIHJJV)](https://codecov.io/gh/lamualfa/minion)
@@ -14,6 +15,7 @@
 - [Concepts](#concepts)
   - [Class Maps](#class-maps)
   - [Extractor](#extractor)
+  - [Writer](#writer)
 - [Integrations](#integrations)
   - [PostCSS](#integrations)
   - [Rollup](#integrations)
@@ -196,7 +198,24 @@ Part that will generate the [Class Maps](#class-maps) from the existing CSS file
 }
 ```
 
+## Writer
+
+The section that writes the [Class Maps](#class-maps) from the [Extractor](#extractor) to the build code.
+
+> `minion-js` is writer for Javascript code.
+
+<hr>
+
 # Integrations
 
- - PostCSS - [postcss-minion](https://github.com/lamualfa/postcss-minion) (_Extractor_)
+## Extractor
+
+ - PostCSS - [postcss-minion](https://github.com/lamualfa/postcss-minion)
+
+## Writer
+
  - Rollup - [rollup-plugin-minion](https://github.com/lamualfa/rollup-plugin-minion)
+ - Rollup HTML - rollup-plugin-minion-html (_Coming soon. PR welcome._)
+
+ - Webpack - minion-loader (_Coming soon. PR welcome._)
+ - Webpack HTML - minion-html-loader (_Coming soon. PR welcome._)
