@@ -1,4 +1,4 @@
-import plugin from './index';
+import plugin from './src/index';
 
 function mockValidResult() {
   return () => {

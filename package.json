@@ -2,7 +2,7 @@
   "name": "minion-js",
   "version": "1.0.0",
   "description": "Replaces the entire string in Javascript code for the needs of minifying or obfuscating selectors.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/lamualfa/minion.git",
   "author": "La Ode Muhammad Al Fatih",
   "license": "WTFPL",
@@ -16,10 +16,12 @@
     "obfuscator"
   ],
   "scripts": {
+    "build": "babel src -d dist",
     "test": "jest --ci --coverage && codecov",
     "local:test": "jest"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/plugin-transform-modules-commonjs": "^7.12.1",
     "codecov": "^3.8.1",
