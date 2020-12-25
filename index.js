@@ -71,7 +71,9 @@ function getClassMaps(options = {}) {
 
 export default function minion(options) {
   const classMaps = getClassMaps(options);
+  if (!classMaps) return false;
   const pattern = getPattern(classMaps);
+
 
   return function execProcessCode(code) {
     return processCode(code, {
