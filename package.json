@@ -17,7 +17,8 @@
     "obfuscator"
   ],
   "scripts": {
-    "test": "jest --ci --coverage && codecov"
+    "test": "jest --ci --coverage && codecov",
+    "local:test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
