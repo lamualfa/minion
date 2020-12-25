@@ -1,6 +1,7 @@
 [![Github License](https://badgen.net/github/license/lamualfa/minion?color=purple&label=license)](https://github.com/lamualfa/minion/blob/master/LICENSE)
 ![CI](https://github.com/lamualfa/minion/workflows/CI/badge.svg)
-[![Maintainability](https://api.codeclimate.com/v1/badges/f84e28be0bd9914bbe44/maintainability)](https://codeclimate.com/github/lamualfa/minion/maintainability)
+[![codecov](https://codecov.io/gh/lamualfa/minion/branch/master/graph/badge.svg?token=NZ6VHIHJJV)](https://codecov.io/gh/lamualfa/minion)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cd4f513ac8e1652b1b7c/maintainability)](https://codeclimate.com/github/lamualfa/minion/maintainability)
 
 ## What is Minion?
 
