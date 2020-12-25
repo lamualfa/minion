@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "minion-js",
   "version": "1.0.0",
   "description": "Replaces the entire string in Javascript code for the needs of minifying or obfuscating selectors.",
