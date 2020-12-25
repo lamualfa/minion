@@ -221,6 +221,8 @@ The section that writes the [Class Maps](#class-maps) from the [Extractor](#extr
  - Webpack - minion-loader (_Coming soon. PR welcome._)
  - Webpack HTML - minion-html-loader (_Coming soon. PR welcome._)
 
+<hr>
+
 # More Examples
 
 Need more examples? See [minion-examples](https://github.com/lamualfa/minion-examples).
